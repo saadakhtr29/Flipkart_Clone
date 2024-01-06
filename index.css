@@ -1,0 +1,70 @@
+#nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+#logo_name{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #2a55e5;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#input_data{
+     border: none;
+     width: 350px;
+     height: 20px;
+     padding-left: 12px;
+     background-color: #F0F5FF;
+     font-size: 18px;
+     color: #666666;
+}
+
+.navtab{
+display: flex;
+align-items: center;
+margin-top: 12px;
+}
+
+#searchbar{
+    background-color: #F0F5FF;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+#categories{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px; 
+    margin: 12px; 
+    margin: auto;
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+
+#categories > div > img{
+    height: 70px;
+    width: 60px;
+    background-color: white;
+}
+
+#categories > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+}
